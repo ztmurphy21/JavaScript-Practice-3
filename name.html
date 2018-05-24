@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Name Script</title>
+   	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+   	<script>
+   	
+   	//get the users name
+        var name = prompt("Please enter your first and last name");
+
+        // all uppercase
+        var nameUpper = name.toUpperCase();
+
+        //length of name characters
+        var nameLength = name.length;
+
+        //index of name
+        var index = name.indexOf(" ");
+
+        //returns first name
+        var firstName = name.substr(0, index);
+        
+        //outputs
+        alert(name);
+        alert(nameUpper);
+        alert(nameLength);
+        alert(index);
+        alert(firstName);
+
+        
+    </script>
+</head>
+<body>
+    <section>
+        <h1>This page is displayed after the JavaScript is executed</h1>
+    </section>
+</body>
+</html>
